@@ -1,22 +1,49 @@
 .banner-img-1{
     background-image: url('../images/banner.png');
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover ;
 }
 .banner-img-2{
     background-image: url('../images/people.png');
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover ;
+   
 }
 .banner-img-3{
      background-image: url('../images/wedding.png');
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat; 
-    background-size:cover ;
+    background-size:cover ;  
+}
+ul{
+    list-style: none;
+}
+.premium_plan{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    margin-top: -45px;
+}
+.box-shadow{
+    box-shadow: 10px 5px 5px whitesmoke;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width:576px) {
+    .banner-img-1 {
+        background-image: url('../images/banner.png');
+        height: 90vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
     
 }
